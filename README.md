@@ -13,7 +13,7 @@ Alternative matrix multipliation where we can derive our Strassen Algorithm from
 
 #### Strassen
 
-<img src="https://en.wikipedia.org/wiki/Strassen_algorithm#/media/File:Strassen_algorithm.svg" height=20>
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Strassen_algorithm.svg" height=20>
 
 Efficient matrix multiplication.
 
