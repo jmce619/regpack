@@ -22,11 +22,13 @@ Efficient matrix multiplication.
 
 <img src="/images/mmt.png"
      alt="Markdown Monster icon"
-     height=100 >
+     height=200 >
 
 ### Matrix Inversion
 
-![GI](/images/gauss.png)
+
+<img src="/images/gauss.png"
+     height=200 >
 
 #### Gauss-Jordan Elimination
 Gauss-Jordan elimination is our initially selected algorithm for solving systems of linear equations. We have created several intuitive methods to emulate sequential operations done by hand. 
