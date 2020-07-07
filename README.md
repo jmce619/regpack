@@ -39,9 +39,9 @@ Introductory machine learning model with linear regression. We will primarily be
 <img src="/images/solq.svg"
      height=120 ><br/><br/>
 
-When we preform first and second derivative tests, we can conclude that the value for our Beta Vector that minimizes our SSR is: 
+When we preform first and second derivative tests, we can conclude that the value for our Beta Vector that minimizes our SSR is: <br/><br/>
 <img src="/images/beta.svg"
-     height=100 >
+     height=40 >
 
 
 ### Determinant
@@ -49,7 +49,7 @@ When we preform first and second derivative tests, we can conclude that the valu
 #### Laplace's formula
 
 <img src="/images/laplace.png"
-     height=200 >
+     height=100 width=250>
 
 
 
