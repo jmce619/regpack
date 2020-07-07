@@ -19,15 +19,44 @@ class ols:
         Xt=X.transpose()
         y=matrix(y)
         
-        self.beta_vector=Xt.mmult(X).gauss_inv().mmult(Xt).mmult(y)
+        self.beta_vector=Xt.m_mult(X).gauss_inv().m_mult(Xt).m_mult(y)
         
-        self.constant=self.beta_vector[0]
-        self.coefficients=self.beta_vector[1:]
+        self.constant=self.beta_vector[0][0]
+        self.coefficients=matrix(self.beta_vector[1:])
         
     def predict(self,x):
         
         X=matrix(x)
-        return X.mmult(self.coefficients).madd(self.constant)
+        return X.m_mult(self.beta_vector)
+
+    def mae_(self,x,y):
+
+
+        X=matrix(x)
+        y=matrix(y)
+
+        sum1=0
+        for n,i in enumerate(y.m_sub(X.m_mult(self.beta_vector))):
+            if i[0]<0:
+                i[0]=i[0]*(-1)
+                sum1+=i[0]
+            else:
+                sum1+=i[0]
+        
+        return sum1/n+1
+
+    def mse_(self,x,y):
+
+        X=matrix(x)
+        y=matrix(y)
+
+        sum1=0
+        for n,i in enumerate(y.m_sub(X.m_mult(self.beta_vector))):
+            sum1+=i[0]**2
+        
+        return sum1/n+1
+
+
 
 
 class ridge:
@@ -35,6 +64,20 @@ class ridge:
     def __init__(self):
 
         pass
+
+    def fit(self,x,y):
+
+        X=matrix(x)
+        y=matrix(y)
+
+        Xt=X.transpose()
+
+        p1=Xt.m_mult(X).gauss_inv()
+        p2=Xt.m_mult(X)
+        print(p1,p2)
+
+        self.alpha=p1.m_sub(p2)
+        #self.alpha=Xt.mmult(X).msubb()
 
 
 
