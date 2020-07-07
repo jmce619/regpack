@@ -19,20 +19,20 @@ Efficient matrix multiplication.
 
 #### Textbook Matrix Multiplication
 
-![TMM](/images/textmatrixmult)
+![TMM](/images/mmt.png)
 
 ### Matrix Inversion
 
-<img src="https://www.mcs.anl.gov/~itf/dbpp/text/img995.gif" height=20>
+![GI](/images/gauss.png)
 
 #### Gauss-Jordan Elimination
 Gauss-Jordan elimination is our initially selected algorithm for solving systems of linear equations. We have created several intuitive methods to emulate sequential operations done by hand. 
 
 #### Ordinary Least-Squares
 
-Introductory machine learning model with linear regression. We will primarily be using our textbook matrix multiplication method and of course our gaussian inversion method. The underlying methodology of OLS is to set up a system of linear equations using a given design matrix (or data set), and solving for the coefficients that minimize the Sum of the Squared Residuals (SSR).
+Introductory machine learning model with linear regression. We will primarily be using our textbook matrix multiplication method and of course our gaussian inversion method. The underlying methodology of OLS is to set up a system of linear equations using a given design matrix (or data set), and solving for the coefficients that minimize the Sum of the Squared Residuals (SSR).  
 ![SOLQ](/images/solq.svg)
-![Beta](/iamges/beta.svg)
+![Beta](/images/beta.svg)
 
 ### Determinant
 
