@@ -13,7 +13,7 @@ Alternative matrix multipliation where we can derive our Strassen Algorithm from
 
 #### Strassen
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Strassen_algorithm.svg" height=20>
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Strassen_algorithm.svg" height=100>
 
 Efficient matrix multiplication.
 
@@ -22,7 +22,7 @@ Efficient matrix multiplication.
 
 <img src="/images/mmt.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 5px; width=10 height=10" />
+     height=100 >
 
 ### Matrix Inversion
 
