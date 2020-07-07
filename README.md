@@ -20,10 +20,9 @@ Efficient matrix multiplication.
 #### Textbook Matrix Multiplication
 
 
-
 <img src="/images/mmt.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 5px; width=10 height=10" />
 
 ### Matrix Inversion
 
