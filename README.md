@@ -10,9 +10,7 @@ by Jamie McElhiney.
 #### Textbook Matrix Multiplication
 
 
-<img src="/images/mmt.png"
-
-     height=260 >
+<img src="/images/mmt.png" height=260 >
 
 #### Divide and Conquer
 
@@ -39,9 +37,11 @@ Gauss-Jordan elimination is our initially selected algorithm for solving systems
 
 Introductory machine learning model with linear regression. We will primarily be using our textbook matrix multiplication method and of course our gaussian inversion method. The underlying methodology of OLS is to set up a system of linear equations using a given design matrix (or data set), and solving for the coefficients that minimize the Sum of the Squared Residuals (SSR).  
 <img src="/images/solq.svg"
-     height=200 ><br/><br/>
+     height=120 ><br/><br/>
+
+When we preform first and second derivative tests, we can conclude that the value for our Beta Vector that minimizes our SSR is: 
 <img src="/images/beta.svg"
-     height=200 >
+     height=100 >
 
 
 ### Determinant
