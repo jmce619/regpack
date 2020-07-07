@@ -43,13 +43,17 @@ When we preform first and second derivative tests, we can conclude that the valu
 <img src="/images/beta.svg"
      height=40 >
 
+#### Tikhonov_regularization (Ridge Regression)
+
+Tikhonov regularization is another method of linear regression that adds a ridge paramter \lambda. The purpose of the coefficient is to mitigate collinearity in models that have these symptoms (very overfit, too many paramters). 
+
 
 ### Determinant
 
 #### Laplace's formula
 
 <img src="/images/laplace.png"
-     height=100 width=250>
+     height=100 width=700>
 
 
 
